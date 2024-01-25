@@ -1,0 +1,52 @@
+.btn {
+  margin-left: 12px;
+}
+
+.list {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 purple;
+
+}
+
+
+
+.list:hover {
+  background: #370237;
+  border-radius: 6px;
+}
+
+.father {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  background: none;
+  gap: 60px;
+}
+
+.father img {
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  width: 200px;
+}
+
+.card_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.h1 {
+  color: red;
+  font-weight: 900;
+}
+
